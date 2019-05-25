@@ -13,8 +13,8 @@
                 return module.exports;
             }
 
-            require(6);
-        })({6: [
+            require(0);
+        })({0: [
             function (require, module, exports) { "use strict";
 
 var _message = require("./message.js");
@@ -24,9 +24,9 @@ var _message2 = _interopRequireDefault(_message);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 console.log(_message2.default); },
-            {"./message.js":7}            
+            {"./message.js":1}            
         ],
-        7: [
+        1: [
             function (require, module, exports) { "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35,16 +35,16 @@ Object.defineProperty(exports, "__esModule", {
 
 var _name = require("./name.js");
 
-exports.default = "hello " + _name.name; },
-            {"./name.js":8}            
+exports.default = "hello to " + _name.name; },
+            {"./name.js":2}            
         ],
-        8: [
+        2: [
             function (require, module, exports) { "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var name = exports.name = 'Denis'; },
+var name = exports.name = 'Ilua'; },
             {}            
         ],
         })
